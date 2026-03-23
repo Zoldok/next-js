@@ -1,6 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 254, 255);
 }
 
 a:hover {
@@ -31,4 +37,9 @@ main {
 .active {
     color: green;
     cursor: default;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(148, 1, 148);
 }
